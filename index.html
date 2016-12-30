@@ -3,7 +3,69 @@
   <head>
     <title>Dustin's Protfolio Email</title>
     <style>
+      body, #bodyTable, #bodyCell{
+        height: 100% !important;
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+      }
+      table{
+        border-collapse: collapse;
+      }
+      img{
+        border: 0;
+        outline: none;
+        text-decoration: none;
+      }
+      h1, h2, h3, h4, h5, h6{
+        margin: 0;
+        padding: 0;
+      }
+      .ReadMsgBody{
+        width: 100%;
+      }
+      .ExternalClass{
+        width: 100%;
+      }
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+        line-height: 100%;
+      }
+      table, td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+      #outlook a {
+        padding: 0;
+      }
+      img {
+        -ms-interpolation-mode: bicubic;
+      }
+      body, table, td, p, a, li, blockquote {
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+      }
 
+      /******General CSS********/
+      body {
+        background-color: #F7F7FF;
+      }
+      h1 {
+        font-size: 44px;
+        font-weight: 100;
+        line-height: 115%;
+      }
+      #heroImageContainer {
+        padding-top: 10px;
+        padding-bottom: 40px;
+      }
+      #descriptionBlock {
+        color: #60656F;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+      }
+      #projectContainer {
+        background-color: #279AF1;
+      }
     </style>
   </head>
   <body>
@@ -13,25 +75,28 @@
           <td align="center" valign="top" id="bodyCell">
             <table border="0" cellpadding="0" cellspacing="0" width="100%" id="emailContainer">
               <tr>
-                <td align="center" valign="top" id="titleContainer">
+                <td align="center" valign="top" padding="100" id="titleContainer">
                   <h1>Hello, I am Dustin Wurtz!</h1>
                 </td>
               </tr>
               <tr>
                 <td align="center" valign="top" id="heroImageContainer">
-                  <img src="https://s3-us-west-2.amazonaws.com/dustinimages/profile_photo.png" alt="Welcome Squirrel" height="415" width="520" id="heroImage" />
+                  <img src="https://s3-us-west-2.amazonaws.com/dustinimages/profile_photo.png" height="415" width="520" id="heroImage" />
                 </td>
               </tr>
               <tr>
                 <td align="center" valign="top" id="descriptionContainter">
-                  <table border="0" cellpadding="0" cellspacing="0" width="600" id="descriptionBlock">
+                  <table border="0" cellpadding="30" cellspacing="0" width="600" id="descriptionBlock">
                     <tr>
                       <td align="center" valign="top" id="descriptionBlockCell">
                         I recently graduated from a six-months Galvanize Full-Stack Immersive program (Seattle, Washington) where I focused on the NEAP stack (Node, Express, Angular, PostgreSQL) and HTML, CSS and JavaScript and continue to sharpen these skills daily.
                         <br />
+                        <br />
                         I come with a diverse background, with a degree in Anthropology and experience in Healthcare Management and customer service. I am passionate about helping people, and through my internships and jobs, I realized that creating amazing software is one of the best ways to do it.
                         <br />
+                        <br />
                         I am now looking forward to joining a great team to create the products that improve people’s lives.
+                        <br />
                         <br />
                         Please see my work in links below or feel free to contact me!
                       </td>
@@ -41,10 +106,10 @@
               </tr>
               <tr>
                 <td align="center" valign="top" id="projectContainer">
-                  <table border="0" cellpadding="0" cellspacing="0" width="600" id="projectBlock">
+                  <table border="0" cellpadding="20" cellspacing="0" width="600" id="projectBlock">
                     <tr>
                       <td align="center" valign="top" id="projectBlockCell">
-                        <table border="0" cellpadding="0" cellspacing="0" id="projectBlockTitle">
+                        <table border="0" cellpadding="10" cellspacing="0" id="projectBlockTitle">
                           <tr>
                             <td align="center" valign="top">
                               <h2>Personal Projects</h2>
